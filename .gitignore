@@ -40,6 +40,7 @@ Thumbs.db
 
 # Environment variables
 .env
+.deployment
 
 # Azure
 .azure/
@@ -49,3 +50,7 @@ frontend/node_modules/
 frontend/build/
 frontend/.env.local
 
+# Arquivos .md
+Guia_Azure_SQL.md
+guia_frontend_completo.md
+variaveis_ambiente_deploy.md
