@@ -12,7 +12,6 @@ const getApiUrl = () => {
 const BASE_URL = getApiUrl();
 
 
-
 // Função para listar produtos
 export const listarProdutos = async () => {
   try {
