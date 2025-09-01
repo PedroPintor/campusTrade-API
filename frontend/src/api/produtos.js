@@ -1,5 +1,17 @@
-// URL da sua API backend
-const BASE_URL = 'http://localhost:8000';
+
+// Detectar ambiente automaticamente
+const getApiUrl = () => {
+  // Produção: usar variável de ambiente ou URL padrão
+  if (process.env.NODE_ENV === 'production') {
+    return process.env.REACT_APP_API_URL || 'https://campustrade-api.azurewebsites.net';
+  }
+  console.log("Ambiente de desenvolvimento detectado");
+  return process.env.REACT_APP_API_URL;
+};
+
+const BASE_URL = getApiUrl();
+
+
 
 // Função para listar produtos
 export const listarProdutos = async () => {

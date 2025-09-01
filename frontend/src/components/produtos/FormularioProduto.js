@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { criarProduto } from '../api';
+import { criarProduto } from '../../api/produtos';
 
 const FormularioProduto = ({ onProdutoCreated, onCancel }) => {
   // Estado para dados do formulário

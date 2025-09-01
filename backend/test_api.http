@@ -23,7 +23,7 @@ Content-Type: application/json
     "preco": 120.0,
     "categoria": "Livros",
     "vendedor": "Maria Santos"
-}
+} 
 
 ### 5. Criar segundo produto
 POST {{baseUrl}}/produtos
