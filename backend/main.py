@@ -9,7 +9,7 @@ app = FastAPI(title="CampusTrade API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://happy-pond-052e5bf0f.2.azurestaticapps.net/"],
+    allow_origins=["http://localhost:3000","https://happy-pond-052e5bf0f.2.azurestaticapps.net"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -3,7 +3,7 @@
 const getApiUrl = () => {
   // Produção: usar variável de ambiente ou URL padrão
   if (process.env.NODE_ENV === 'production') {
-    return process.env.REACT_APP_API_URL || 'https://campustrade-api.azurewebsites.net';
+    return process.env.REACT_APP_API_URL || 'https://campustradepedropintor-cxf0cjhseqf4a2ab.eastus2-01.azurewebsites.net';
   }
   console.log("Ambiente de desenvolvimento detectado");
   return process.env.REACT_APP_API_URL;
